@@ -1,3 +1,8 @@
+/* Regra de 3 na calculadora
+  (Parte * 100%) / Total conhecido
+    Ex: (656 * 100) / 1280
+*/
+
 *{
   margin: 0;
   padding: 0;
@@ -10,25 +15,25 @@
   --brand-light: #f67841;
   --brand-mid: #f3541c;
   --brand-dark: #e43a12;
-
+  
   /* Text */
   --text-primary: #292524;
   --text-secondary: #57534e;
   --text-tertiary: #8f8881;
   --text-highlight: #e43a12;
-
+  
   /* Surface */
   --surface-primary: #ffffff;
   --surface-secondary: #fee7d6;
   --surface-disabled: #e7e5e4;
-
+  
   /* Stroke */
   --stroke-default: #d6d3d1;
   --stroke-highlilght: #f3541c;
-
+  
   /* Semantic */
   --semantic-error: #dc2626;
-
+  
   /* Supporting */
   --orage: #f9a474;
   --yellow: #fedf6f;
@@ -40,8 +45,27 @@
 
   /* TYPOGRAPHY */
   --font-family: "Poppins", serif;
-  --poppins-h1: 400 1rem/1.2 var(--font-family);
-  --poppins-h2: 400 1.5rem/1.2 var(--font-family);
-  --poppins-h3: 400 1.25/1.2 var(--font-family);
-  --poppins-h4: 400 1rem/1.2 var(--font-family);
+  --text: 400 1rem/1.2 var(--font-family);
+  --text-sm: 0.875rem/1.4 var(--font-family);
+  --poppins-h1: 600 1.5rem/1.25 var(--font-family);
+  --poppins-h2: 600 1.5rem/1.2 var(--font-family);
+  --poppins-h2-lg: 600 2.5rem/1.2 var(--font-family);
+
+  --poppins-h3: 600 1.25/1.2 var(--font-family);
+  --poppins-h4: 600 1rem/1.2 var(--font-family);
+
+}
+
+body{
+  overflow: hidden;
+
+  font: var(--text);
+  color: var(--text-secondary);
+}
+h1, h2{
+  color: var(--text-primary);
+}
+img{
+  max-width: 100%;
+  height: auto;
 }
