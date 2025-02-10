@@ -29,7 +29,7 @@
   
   /* Stroke */
   --stroke-default: #d6d3d1;
-  --stroke-highlilght: #f3541c;
+  --stroke-highlight: #f3541c;
   
   /* Semantic */
   --semantic-error: #dc2626;
@@ -52,7 +52,7 @@
   --poppins-h2-lg: 600 2.5rem/1.2 var(--font-family);
 
   --poppins-h3: 600 1.25/1.2 var(--font-family);
-  --poppins-h4: 600 1rem/1.2 var(--font-family);
+  --poppins-h4: 600 1rem/1.25 var(--font-family);
 
 }
 
